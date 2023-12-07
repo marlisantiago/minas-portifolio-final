@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Marli Santiago" content="width=device-width, initial-scale=1.0">
+  <title>Meu portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- chamando o ícone na aba do navegador -->
+  <link rel="shortcut icon" href="/img/foto-perfil.png">
+  <!-- tag para inserirmos icones de uma lib externa no nosso HTML -->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+</head>
+
+<body>
+  <!-- cabeçalho da nossa página, visível ao usuário -->
+  <header class="header-menu">
+    <nav>
+      <ul class="lista-menu">
+        <li><a href="#formacao">Formação</a> </li>
+        <li><a href="#portifolio">Portfólio</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- corpo da nossa página, visível ao usuário -->
+  <main>
+    <section class="principal">
+      <article class="subcontainer-principal container">
+        <div>
+          <img src="/img/foto-perfil.png">
+        </div>
+        <div>
+          <h1 class="nome-completo" id="minhaNav">Marli Santiago</h1>
+          <h2 class="profissao">Desenvolvedora Front-end em formação</h2>
+        </div>
+        <div class="texto-sobre">
+          <p>
+            Profundo conhecimento dos processos de negócios financeiros e contábeis, com 20 anos de
+            experiencia em fluxo de caixa, Contas a receber, Contas a pagar e Operações de tesouraria.
+            Conhecimento de localização brasileira incluindo, requerimentos legais, Impostos retidos, SPED e
+            processos Bancários
+            Experiência inicial em projetos SAP, atuando como consultora jr, com configurações e testes de
+            cenários, e documentações de configurações funcionais e testes unitários.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- O ID é a forma de conectar nossa barra de navegação a esse trecho do código -->
+    <section id="formacao">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Introdução Tecnológica</p>
+              <a href="https://minasprogramam.com/" target="_blank" class="lista-local">Minas Programam</a>
+              <p class="lista-descricao">
+                A taxa de desemprego no Brasil foi de 8% no trimestre móvel terminado em junho, segundo a Pesquisa
+                Nacional por Amostra de Domicílios (PNAD) ...
+              </p>
+            </li>
+
+            <li>
+              <p class="lista-titulo">
+                SAP Funcional ECC Foundations
+                Academia SAP FI - Contabilidade Financeira -</p>
+              <a href="https://www.ifsp.edu.br/" target="_blank" class="lista-local">IFSP</a>
+              <p class="lista-descricao">
+                responsável pelo gerenciamento de todas as atividades financeiras em uma empresa. Ele abrange as áreas
+                de contabilidade geral, contas a pagar, contas a receber, gestão de ativos fixos, tesouraria e controle
+                de custos.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+      </article>
+    </section>
+
+    <section class="principal" id="portifolio">
+      <article class="container article-lista">
+        <div>
+          <h3 class="topico-principal">Blog</h3>
+        </div>
+        <div class="lista-item">
+          <ul>
+            <li>
+              <p class="lista-titulo">Mulheres que fazem história</p>
+              <p class="subtitulo-lista">Revelo</p>
+              <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+              <p class="lista-descricao">A materia diz a respeito de mulheres brasileiras atuantes na área de tecnologia etc.</p>
+            </li>
+
+            <li>
+              <p class="lista-titulo"></p>
+              <p class="subtitulo-lista"></p>
+              <a href="https://www..cnnbrasil.com/" target="_blank" class="lista-local" vimento Sustentável (ODS) da ONU
+                no Brasil.></a>
+              <p class="lista-descricao">
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- rodapé da nossa página, visível ao usuário -->
+  <footer class="rodape" id="contato">
+    <div class="container">
+
+      <ul class="lista-rodape">
+        <li>
+          <i class="fas fa-envelope-square estilo-icone"></i>
+          <a href="mailto:marli.silvacs@gmail.com" class="links" target="_blank">Enviar e-mail</a>
+        </li>
+        <li><i class="fab fa-linkedin estilo-icone"></i>
+          <a href="https://www.linkedin.com/in/sapfijnmarli-santiago-246140137/" class="links" target="_blank">LinkedIn</a>
+        </li>
+        <li><i class="fab fa-github-square estilo-icone"></i>
+          <a href="https://github.com/marlisantiago" class="links" target="_blank"> Github</a>
+        </li>
+      </ul>
+
+      <a href="#minhaNav" class="links">Volte ao topo</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
